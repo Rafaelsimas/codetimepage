@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Programa de mentoria focada em front-end">
+    <meta name="description" content="front-end, codetime, codetimedev, codetimehub, alunos de programação">
+    <link rel="shortcut icon" href="./img/logo-hero.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/trabalhe.css">
+    <title>CodeTime | Trabalhe conosco</title>
+</head>
+
+<body>
+    <div class="webSite">
+        <div class="top-desktop">
+            <h1>codetime</h1>
+            <ul class="list-links">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="index.html">Programas</a>
+                </li>
+                <li>
+                    <a href="#">Trabalhe conosco</a>
+                </li>
+                
+            </ul>
+        </div>
+
+        <div class="top-mobile">
+                <h1>codetime</h1>
+                <ion-icon onclick="openMenu()" id="btn-menu" name="menu-outline"></ion-icon>
+        </div>
+        <div class="menu-mobile screen-hidden">
+            <ul>
+                <li><a onclick="closeMenu()" href="index.html">Home</a></li>
+                <li><a onclick="closeMenu()" href="index.html">Programa</a></li>
+                <li><a onclick="closeMenu()" href="#">Trabalhe conosco</a></li>
+                
+                <ion-icon id="btn-close-menu" onclick="closeMenu()" name="close-circle-outline"></ion-icon>
+            </ul>
+        </div>
+
+        
+
+        <main>
+           
+            <div class="job-flex-box">
+                <div class="text-job-box">
+                    <div class="text-sm-job">Seja um de nós</div>
+                    <div class="text-lg-job">Cadastre-se em nosso banco de talentos</div>
+                    <div class="text-xm-job">A <strong>CodeTime</strong> está sempre em busca de talentos independente da sua formação, religião, formação e raça. Procuramos por talentos com forte potencial no impacto social. </div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1575089976121-8ed7b2a54265?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGVzZW52b2x2ZWRvcnxlbnwwfHwwfHx8MA%3D%3D" alt="">
+            </div>
+
+            <form id="myForm">
+                <input type="text" name="nome" placeholder="Digite seu nome">
+                <input type="text" name="sobrenome" placeholder="Digite seu sobrenome">
+                <input type="text" name="telefone" placeholder="Digite seu telefone">
+                <input type="text" name="endereco" placeholder="Digite seu endereço">
+                <input type="text" name="cep" placeholder="Digite seu cep">
+                <input type="text" name="cpf" placeholder="Digite seu cpf">
+                <input type="text" name="github" placeholder="Link do seu github">
+                <input type="text" name="linkedin" placeholder="Link do seu linkedin">
+                <input type="text" name="instagram" placeholder="Link do seu instagram">
+                <input type="text" name="projeto" placeholder="Link do seu melhor projeto">
+                <input type="text" name="email" placeholder="Digite seu email">
+            
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+           
+            <div class='loading screen-hidden'></div>
+            <div class="register-success screen-hidden">Inscrição realizada com sucesso</div>
+        </main>
+    </div>
+
+    <footer data-aos="fade-right" class="end" id="end">
+        <img src="./img/Design_sem_nome__4_-removebg-preview.png" alt="">
+        <ul data-aos="fade-right" class="list-footer">
+            <li>Home</li>
+            <li>Programas</li>
+            <li>Trabalhe conosco</li>
+            <li>Fórum</li>
+            <li>Ajuda</li>
+        </ul>
+      
+        <ul data-aos="fade-right" class="list-footer">
+            <li>
+                <a href="https://www.linkedin.com/company/100100870/admin/feed/posts/?feedType=following" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/codetimedev/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon></li>
+                </a>
+        </ul>
+        <div class="map-frame">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.3546730857697!2d-41.95584082580423!3d-22.528382979523226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b370a0645495%3A0x1b736568baa287a5!2sR.%20Pernambuco%2C%2059%20-%20Nova%20Alianca%2C%20Rio%20das%20Ostras%20-%20RJ%2C%2028893-331!5e0!3m2!1spt-BR!2sbr!4v1698159285450!5m2!1spt-BR!2sbr" width="400" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-frame-description">
+                <div>
+                    Rua pernanbuco, 59 <br> Extensão do bosque,
+                  <strong>Rio das Ostras-Rj</strong>  
+                </div>
+            </div>
+        </div>
+      </footer>
+
+      <a href="#top">
+          <div class="arrow-top-screen">
+            <ion-icon name="chevron-up-outline"></ion-icon>
+    
+          </div>
+      </a>
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script src="./js/app.js"></script>
+<script src="./js/dataJob.js"></script>
+</body>
+</html>

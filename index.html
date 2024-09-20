@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Programa de mentoria focada em front-end">
+    <meta name="description" content="front-end, codetime, codetimedev, codetimehub, alunos de programação">
+    <meta name="description" content="aprenda programação do zero, do absoluto zero, html, css, javascript, git, github, reactjs">
+    <link rel="shortcut icon" href="./img/logo-hero.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>codetime | Home </title>
+</head>
+
+<body>
+    <div class="webSite">
+        <div class="top-desktop">
+            <a href="index.html">
+                <h1>CodeTime</h1>
+            </a>
+            <ul class="list-links">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#mentoring">Programas</a>
+                </li>
+                <li>
+                    <a href="trabalhe.html">Trabalhe conosco</a>
+                </li>
+                <li class="activo">
+                    <a href="#contact">Inscreva-se</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="top-mobile">
+                <h1>codetime</h1>
+                <ion-icon onclick="openMenu()" id="btn-menu" name="menu-outline"></ion-icon>
+        </div>
+        <div class="menu-mobile screen-hidden">
+            <ul>
+                <li><a onclick="closeMenu()" href="#hero">Home</a></li>
+                <li><a onclick="closeMenu()" href="#mentoring">Programa</a></li>
+                <li><a onclick="closeMenu()" href="trabalhe.html">Trabalhe conosco</a></li>
+                <li><a onclick="closeMenu()" href="#benefits">Inscrever</a></li>
+                <ion-icon id="btn-close-menu" onclick="closeMenu()" name="close-circle-outline"></ion-icon>
+            </ul>
+        </div>
+
+        <div class="hero" id="hero">
+            <div class="text">
+                <div data-aos="fade-right" class="text-name-program ">Programa de mentoria</div>
+                <div data-aos="fade-right" class="big-text">Estude programação com aulas ao vivo e projetos práticos</div>
+                <div data-aos="fade-right" class="legend-text">Sabemos que estudar programação não é uma tarefa fácil, principalmente quando você não tem direcionamento, desafios e alguém com didática que pegue realmente na sua mão. Na mentoria <strong>codetimehub</strong> você aprende fazendo mas não é sendo jogado aos leões. você aprende com gente do seu lado o tempo todo.</div>
+               <div class="actions">
+                   <button class="register">
+                       <a href="#contact">
+                    Inscrever
+                </a>
+                </button>
+
+                <a href=""></a>
+                   <button>Veja mais</button>
+                </div>
+            </div>
+            <div data-aos="fade-right" class="image">
+                <img class="image-header" src="./img/removed-bg.png" alt="">
+            </div>
+        </div>
+
+        <main>
+            <section data-aos="fade-right" class="mentoring" id="mentoring">
+                <div class="section-title">Programa de mentoria</div>
+                <div class="box-section-mentoring">
+                    <div class="left-box">
+                        <div class="tecnology-icons">
+                            <ion-icon name="logo-html5"></ion-icon>
+                            <ion-icon name="logo-css3"></ion-icon>
+                            <ion-icon name="logo-javascript"></ion-icon>
+                            <ion-icon name="logo-react"></ion-icon>
+                            <ion-icon name="logo-nodejs"></ion-icon>
+                            <ion-icon name="leaf-outline"></ion-icon>
+    
+                        </div>
+                        
+                        <div class="description-this-service">
+                            <div data-aos="fade-right" class="description-lg">
+                                Iniciante do total zero ou com algum conhecimento são todos muito bem vindos.
+                            </div>
+                            <div data-aos="fade-right" class="description-sm">
+                                Você vai estudar ao vivo <strong> HTML e as principais tags</strong>, <strong>CSS grid, flex-box</strong> , <strong>JavaScript manipulação de dom</strong> ,<strong>nodejs criação e consumo de api's</strong>  e <strong>reactjs desenvolvimento de interfaces</strong> 
+                            </div>
+                            
+                            <a href="#contact">
+                                <button data-aos="fade-right" class="#">Inscrever</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="right-box-img">
+                        <img src="./img/programador.webp" alt="">
+                    </div>
+                </div>
+                    
+            </section>
+
+            <section data-aos="fade-right" class="benefits" id="benefits">
+                <div class="section-title">Escolha o codetimehub <br> e tenha</div>
+
+                <div class="box-benefits">
+                    <div data-aos="fade-right" class="card-benefit">
+                        <img src="https://images.unsplash.com/photo-1580894732930-0babd100d356?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <div class="benefit">Mentoria individual</div>
+                        <div data-aos="fade-right" class="description-benefit">Aqui ninguém fica pra trás, pois temos um compromisso de empatia e entendemos que o tempo de aprendizado é diferente para cada pessoa.</div>
+                        
+                    </div>
+
+                    <div data-aos="fade-right" class="card-benefit">
+                        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <div class="benefit">Aulas ao vivo</div>
+                        <div data-aos="fade-right" class="description-benefit">As aulas são direto com o professor aonde você tem a possibilidade de tirar todas as suas dúvidas, ver na prática como um dev sênior aplica suas soluções no merdade de trabalho e aprende fazendo com alguém do lado.</div>
+                        
+                    </div>
+
+                    <div data-aos="fade-right" class="card-benefit">
+                        <img src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3JhbWFkb3J8ZW58MHx8MHx8fDA%3D" alt="">
+                        <div class="benefit">Exercícios práticos</div>
+                        <div data-aos="fade-right" class="description-benefit">A repetição leva a perfeição, mas a repetição sem um destino final é mera repetição então, trazemos exercícios que colocam de fato a prova tudo que está sendo ensinado em sala de aula.</div>
+                        
+                    </div>
+
+                    <div class="card-benefit">
+                        <img src="https://images.unsplash.com/photo-1629904869392-ae2a682d4d01?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbWFkb3Jlc3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+                        <div class="benefit">Ambiente real de desenvolvimento</div>
+                        <div data-aos="fade-right" class="description-benefit">Sabemos que é bem mais difícil para um dev júnior conseguir sua primeira vaga. Contamos com um ambiente que trará os desafios do mundo real para você se preparar.</div>
+                        
+                    </div>
+                </div>
+            </section>
+
+          <section data-aos="fade-right" class="contact" id="contact">
+            <div class="section-title">Inscreva-se</div>
+            <form class="form" action="#">
+                <input type="text" placeholder="Nome" name="name">
+                <input type="text" placeholder="Sobrenome" name="sobrenome">
+                <input type="text" placeholder="E-mail" name="email">
+                <input type="text" placeholder="Telefone" name="telefone">
+                <button id="btnSubmit" type="submit">Enviar</button>
+                <div class='loading screen-hidden'></div>
+                <div class="register-success screen-hidden">Inscrição realizada com sucesso</div>
+            </form>
+          </section>
+        </main>
+    </div>
+
+    <footer data-aos="fade-right" class="end" id="end">
+        <img src="./img/Design_sem_nome__4_-removebg-preview.png" alt="">
+        <ul data-aos="fade-right" class="list-footer">
+            <li>Home</li>
+            <li>Programas</li>
+            <li>Trabalhe conosco</li>
+            <li>Fórum</li>
+            <li>Ajuda</li>
+        </ul>
+      
+        <ul data-aos="fade-right" class="list-footer">
+            <li>
+                <a href="https://www.linkedin.com/company/100100870/admin/feed/posts/?feedType=following" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/codetimedev/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon></li>
+                </a>
+        </ul>
+        <div class="map-frame">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.3546730857697!2d-41.95584082580423!3d-22.528382979523226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b370a0645495%3A0x1b736568baa287a5!2sR.%20Pernambuco%2C%2059%20-%20Nova%20Alianca%2C%20Rio%20das%20Ostras%20-%20RJ%2C%2028893-331!5e0!3m2!1spt-BR!2sbr!4v1698159285450!5m2!1spt-BR!2sbr" width="400" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-frame-description">
+                <div>
+                    Rua pernanbuco, 59 <br> Extensão do bosque,
+                  <strong>Rio das Ostras-Rj</strong>  
+                </div>
+            </div>
+        </div>
+      </footer>
+
+      <a href="#top">
+          <div class="arrow-top-screen">
+            <ion-icon name="chevron-up-outline"></ion-icon>
+    
+          </div>
+      </a>
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>

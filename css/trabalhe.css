@@ -1,0 +1,130 @@
+.job-flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    gap: 12px;
+}
+
+.job-flex-box .text-job-box .text-sm-job{
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 20px;
+    color: rgb(143, 143, 143);
+}
+.job-flex-box .text-job-box .text-lg-job {
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 30px;
+   
+    width: 85%;
+}
+.job-flex-box .text-job-box .text-xm-job {
+    font-weight: normal;
+    color: rgb(143, 143, 143);
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    width: 80%;
+}
+
+.job-flex-box img{
+    width: 750px;
+    object-fit: cover;
+    height: 450px;
+}
+
+/* ------------------form-------------------------- */
+form {
+    width: 100%;
+    margin-bottom: 52px;
+}
+
+form button {
+    width: 25%;
+    padding: 12px;
+    margin-top: 35px;
+    /* margin-bottom: 32px; */
+}
+
+
+
+form input{
+    width: 30%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 12px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+}
+
+.loading{
+    margin-bottom: 30px;
+}
+
+.register-success {
+    margin-bottom: 12px;
+}
+@media (max-width:600px) {
+
+    
+    .job-flex-box{
+       padding: 15px;
+        flex-direction: column;
+       
+    }
+
+    .job-flex-box .text-job-box .text-lg-job {
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 30px;
+       
+        width: 100%;
+    }
+
+    .job-flex-box .text-job-box .text-xm-job {
+        font-weight: normal;
+        color: rgb(143, 143, 143);
+        font-size: 17px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .job-flex-box img{
+        width: 350px;
+        object-fit: cover;
+        height: 350px;
+    }
+
+    form{
+        width: 100%;
+        margin-bottom: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    form input{
+        width: 90%;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        padding: 12px;
+        border: none;
+        background: none;
+        border-bottom: 1px solid black;
+    }
+    form button{
+        
+        width: 90%;
+    }
+
+    .loading{
+        margin-bottom: 30px;
+    }
+
+    .register-success{
+        margin-bottom: 30px;
+    }
+}
