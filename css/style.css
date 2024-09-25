@@ -173,6 +173,16 @@ h1 {
   height: 350px;
   object-fit: cover;
   border-radius: 4px;
+  position: relative;
+}
+
+.ghost-bg {
+  background-image: linear-gradient(#84a9f3, white);
+  position: absolute;
+  width: 30rem;
+  height: 27rem;
+  top: 7rem;
+  left: 43rem;
 }
 
 /* --------------------benefícios---------- */
@@ -334,6 +344,15 @@ h1 {
     position: relative;
   }
 
+  .ghost-bg {
+    background-image: linear-gradient(#84a9f3, white);
+    position: absolute;
+    width: 17rem;
+    height: 23rem;
+    top: 46rem;
+    left: 8rem;
+  }
+
   .screen-hidden {
     display: none;
   }
@@ -469,6 +488,7 @@ h1 {
     height: 350px;
     object-fit: cover;
     border-radius: 4px;
+    position: relative;
   }
 
   /* ---------------benefits----------- */
